@@ -1,0 +1,40 @@
+{
+  "name": "elephpant/quotation",
+  "description": "Quotation is a simple way to extract the currency situation converted for CURRENCY REAL (BRL), either on the current day or in previous periods, as well as at defined intervals. Contains a vast collection of coins to get your status for REAL (BRL).",
+  "keywords": [
+    "Sérgio Danilo Jr",
+    "AwesomeAPI",
+    "quote",
+    "coin",
+    "quotation",
+    "dollar",
+    "euro",
+    "USD",
+    "BRL",
+    "currency",
+    "sterling",
+    "finance",
+    "elephpant",
+    "elephant"
+  ],
+  "homepage": "https://www.sergiodanilojr.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sérgio Danilo Jr.",
+      "email": "sergiodaniojr@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-xml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ElePHPant\\Quotation\\": "src"
+    }
+  }
+}
